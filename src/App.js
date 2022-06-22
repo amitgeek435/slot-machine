@@ -4,9 +4,10 @@ import { Container } from "react-bootstrap";
 // import Form from "react-bootstrap/Form";
 
 const Slotm = () => {
-  let x = ":happy";
-  let y = ":happy";
-  let z = ":happy";
+  let x = "😄";
+  let y = "😄";
+  let z = "😄";
+
   if (x === y && y === z) {
     return (
       <>
@@ -57,3 +58,4 @@ function App() {
 }
 
 export default App;
+//object destructuring
